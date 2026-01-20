@@ -1,0 +1,42 @@
+== Subsystem Architecture
+
+The subsystem is composed of four cooperating components, each with a clear boundary.
+
+[plantuml, subsystem-architecture, svg]
+----
+@startuml
+title Terminal Recoverer – Architecture Overview
+
+package "User Environment" {
+  [bashrc.d/recoverer.sh]
+  [terminal-recoverer CLI]
+}
+
+package "Systemd User Services" {
+  [terminal-recoverer.service]
+  [terminal-recoverer-coredump.service]
+}
+
+package "Capture & Logging" {
+  [Session Logger]
+  [Crash Capture Pipeline]
+}
+
+package "Persistence Layer" {
+  [~/Documents/terminal-logs]
+  [~/Documents/crash-captures]
+  [tmux recovery session]
+}
+
+[bashrc.d/recoverer.sh] --> [Session Logger]
+[terminal-recoverer CLI] --> [Session Logger]
+[terminal-recoverer CLI] --> [tmux recovery session]
+
+[terminal-recoverer.service] --> [tmux recovery session]
+[terminal-recoverer-coredump.service] --> [Crash Capture Pipeline]
+
+[Session Logger] --> [~/Documents/terminal-logs]
+[Crash Capture Pipeline] --> [~/Documents/crash-captures]
+
+@enduml
+----
