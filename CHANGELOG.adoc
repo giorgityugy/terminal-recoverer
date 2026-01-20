@@ -1,0 +1,17 @@
+= Changelog
+:icons: font
+
+== 0.1.0 – Initial Release
+
+* Introduced `terminal-recoverer` CLI with subcommands:
+  - `ensure`
+  - `log-shell`
+  - `watch-coredump`
+* Added user-level systemd services:
+  - `terminal-recoverer.service`
+  - `terminal-recoverer-coredump.service`
+* Added crash-capture pipeline with structured artefact schema
+* Added optional interactive session logging
+* Added immediate shell history flushing
+* Added HOWTO onboarding document
+* Introduced Sentinel identity, manifest, and glyph
