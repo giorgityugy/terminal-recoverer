@@ -1,15 +1,11 @@
-// SPDX-License-Identifier: PLMP-1.0-or-later
+= Terminal Recoverer 
+Jonathan Jewell <jonathan.jewell@open.ac.uk> 
+:toc: 
+:icons: font: 
 
-= Terminal Recoverer
-
-:toc:
-
-Jonathan Jewell <jonathan.jewell@open.ac.uk>
-:toc:
-:icons: font
+// SPDX-License-Identifier: PLMP-1.0-or-later 
 
 Terminal Recoverer is a lightweight continuity steward for your terminal environment.
-It provides three core capabilities:
 
 * A persistent `tmux` recovery session available at all times.
 * Optional full-session logging for interactive shells.
