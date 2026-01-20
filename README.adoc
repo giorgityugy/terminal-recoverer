@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: PLMP-1.0-or-later
 = Terminal Recoverer
 Jonathan Jewell <you@example.com>
 :toc:
