@@ -1,6 +1,7 @@
-# SPDX-License-Identifier: PLMP-1.0-or-later
+// SPDX-License-Identifier: PLMP-1.0-or-later = Sentinel Manifest :toc:
 = Terminal Recoverer
-Jonathan Jewell <you@example.com>
+
+Jonathan Jewell <jonathan.jewell@open.ac.uk>
 :toc:
 :icons: font
 
