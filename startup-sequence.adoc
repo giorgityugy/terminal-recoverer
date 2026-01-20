@@ -1,0 +1,12 @@
+== Startup Sequence (Login)
+
+[sequence]
+User -> systemd --user: Login
+systemd --user -> terminal-recoverer.service: ExecStart=terminal-recoverer ensure
+terminal-recoverer.service -> terminal-recoverer: ensure
+terminal-recoverer -> tmux: has-session recovery?
+tmux --> terminal-recoverer: no
+terminal-recoverer -> tmux: new-session -d -s recovery
+terminal-recoverer -> FS: mkdir -p ~/Documents/terminal-logs
+terminal-recoverer --> systemd --user: success
+systemd --user --> User: recovery session ready
