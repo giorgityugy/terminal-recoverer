@@ -106,7 +106,10 @@ terminal-recoverer watch-coredump
 ----
 ~/Documents/terminal-logs/        # Optional session logs
 ~/Documents/crash-captures/       # Crash forensic bundles
-----
+
+=== Uninstall To remove Sentinel from your user environment: 
+
+---- just uninstall ----
 
 == Philosophy
 
